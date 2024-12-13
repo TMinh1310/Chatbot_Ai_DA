@@ -1,0 +1,20 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"slots\": {\"subtopic\": [1.0]}, \"user\": {\"intent\": \"ask_detail\"}}]": "action_fetch_chapter_detail",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"slots\": {\"subtopic\": [1.0]}, \"user\": {\"intent\": \"ask_detail\"}}, {\"prev_action\": {\"action_name\": \"action_fetch_chapter_detail\"}, \"slots\": {\"subtopic\": [1.0]}, \"user\": {\"intent\": \"ask_detail\"}}]": "action_listen"
+    },
+    "rule_only_slots": [
+      "subtopic"
+    ],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"slots\": {\"subtopic\": [1.0]}, \"user\": {\"intent\": \"ask_detail\"}}, {\"prev_action\": {\"action_name\": \"action_fetch_chapter_detail\"}, \"slots\": {\"subtopic\": [1.0]}, \"user\": {\"intent\": \"ask_detail\"}}]",
+      "predicting default action with intent session_start",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"slots\": {\"subtopic\": [1.0]}, \"user\": {\"intent\": \"ask_detail\"}}]",
+      "predicting default action with intent back"
+    ]
+  }
+}

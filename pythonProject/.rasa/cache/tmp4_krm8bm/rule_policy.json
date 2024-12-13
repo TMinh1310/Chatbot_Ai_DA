@@ -1,0 +1,18 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_chapter_detail\"}}]": "action_fetch_chapter_detail",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_chapter_detail\"}}, {\"prev_action\": {\"action_name\": \"action_fetch_chapter_detail\"}, \"user\": {\"intent\": \"ask_chapter_detail\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_chapter_detail\"}}]",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_chapter_detail\"}}, {\"prev_action\": {\"action_name\": \"action_fetch_chapter_detail\"}, \"user\": {\"intent\": \"ask_chapter_detail\"}}]",
+      "predicting default action with intent restart"
+    ]
+  }
+}

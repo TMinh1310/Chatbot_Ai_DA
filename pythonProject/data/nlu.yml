@@ -1,0 +1,96 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good bye
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: ask_information
+  examples: |
+    - Tell me about [Chapter 2](subtopic)
+    - Explain [MOSFET Characteristics](subtopic)
+    - I want to know about [Chapter 3](subtopic)
+    - Tell me about [MOSFET](subtopic)
+    - What are the [characteristics](subtopic) of MOSFET?
+    - Explain [analog](subtopic) circuits    
+    - Tell me about [MOSFET](subtopic)
+    - Explain [Small-Signal Model](subtopic)
+    - What is [Threshold Voltage](subtopic)?
+    - Can you describe [Triode Mode](subtopic)?
+    - How does [Source Follower](subtopic) work?
+    - What are the [I-V Characteristics](subtopic) of MOS transistors?
+    - Give me details about [Differential Amplifiers](subtopic).
+    - What are the conditions for [Saturation Mode](subtopic)?
+    - Can you provide an example of [Common Source Amplifier](subtopic)?
+    - What is the [Frequency Response](subtopic) in analog circuits?
+    - I want to know about [Cutoff Mode](subtopic).
+    - Tell me an example of [Small-Signal Parameters](subtopic).
+    - What is the role of [Operational Amplifiers](subtopic)?
+    - Can you explain the [Transistor Parameters](subtopic)?
+    - How do [BJT Transistors](subtopic) work in switching applications?
+    - What is the [Noise Margin](subtopic) in digital circuits?
+    - Tell me about the [Biasing Techniques](subtopic) in analog circuits.
+    - Explain the concept of [Load Line](subtopic) in transistor circuits.
+    - What is the [Gain Bandwidth Product](subtopic) in amplifiers?
+    - How is [Voltage Gain](subtopic) calculated in amplifiers?
+    - Can you describe [Voltage Swing](subtopic) in amplifier circuits?
+    - What are the [Characteristics of Active Filters](subtopic)?
+    - Explain the [Principle of Operation](subtopic) of [Differential Pairs](subtopic).
+    - What is the difference between [Common Collector](subtopic) and [Common Emitter](subtopic) configurations?
+    - Tell me about [Transistor Amplification](subtopic) techniques.
+    - What are the [Advantages of Feedback](subtopic) in amplifiers?
+    - Can you explain the concept of [Signal Amplification](subtopic)?
+    - What is the function of [Resistor Networks](subtopic) in biasing?
+    - Tell me about the [Design of Active Filters](subtopic).
+    - How does [Thermal Runaway](subtopic) affect transistor performance?
+    - What are the [Basic Building Blocks](subtopic) of analog circuits?
+    - Can you explain the [Structure of MOSFETs](subtopic)?
+    - What factors affect the [Threshold Voltage](subtopic) in MOSFETs?
+    - Describe the [Small-Signal Equivalent Circuit](subtopic) for AC analysis.
+    - How does [Current Mirror](subtopic) enhance analog circuit performance?
+    - What is the role of [Common Source Amplifiers](subtopic) in signal processing?
+    - Can you provide an example of [Source Follower](subtopic) usage?
+    - How does [Channel Length Modulation](subtopic) influence MOSFET behavior?
+    - What are the [Modes of Operation](subtopic) in MOS transistors?
+    - Explain the conditions for [Cutoff Region](subtopic) in MOSFETs.
+    - What are the [Noise Sources](subtopic) in MOSFETs, and how are they reduced?
+    - How does [Transconductance](subtopic) impact amplifier gain?
+    - What is the [Voltage Gain](subtopic) formula for small-signal amplifiers?
+    - Describe the [Frequency Response](subtopic) of an amplifier.
+    - How does [Impedance Matching](subtopic) improve circuit performance?
+    - What is the purpose of [Differential Amplifiers](subtopic) in noise rejection?
+    - Explain the significance of [I-V Characteristics](subtopic) in MOSFETs.
+    - What are the [Applications of Triode Mode](subtopic) in analog circuits?
+    - Tell me about the [Principle of Operation](subtopic) of a [Current Mirror](subtopic).
+    - How does [Common-Mode Rejection Ratio](subtopic) benefit differential amplifiers?
+
+
+- intent: fallback
+  examples: |
+    - Sorry, I don't understand.
+    - Could you repeat that?

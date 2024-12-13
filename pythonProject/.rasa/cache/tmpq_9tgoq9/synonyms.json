@@ -1,0 +1,20 @@
+{
+  "chapter 2": "Chapter 2",
+  "mosfet characteristics": "MOSFET Characteristics",
+  "chapter 3": "Chapter 3",
+  "mosfet": "MOSFET",
+  "characteristics": "characteristics",
+  "analog": "analog",
+  "small-signal model": "Small-Signal Model",
+  "threshold voltage": "Threshold Voltage",
+  "triode mode": "Triode Mode",
+  "source follower": "Source Follower",
+  "i-v characteristics": "I-V Characteristics",
+  "differential amplifiers": "Differential Amplifiers",
+  "saturation mode": "Saturation Mode",
+  "common source amplifier": "Common Source Amplifier",
+  "frequency response": "Frequency Response",
+  "cutoff mode": "Cutoff Mode",
+  "small-signal parameters": "Small-Signal Parameters",
+  "operational amplifiers": "Operational Amplifiers"
+}

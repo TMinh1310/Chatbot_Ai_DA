@@ -1,0 +1,9 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_ask_phone",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfGJxdnxBRn5eak4TYkFABzSNjg=": "simple_form",
+    "eJydjFEKgCAQBa/iATqBV4lYJF4l5Srr2o9494T6jaC/GRhmrG0wNQlOcrP6yNbUG4hdgDWPHD4ruLclQ3rjuataswqg7eNRVCHk8k5pi4yfl+xDOkBLlPB6mC5Wg089": "action_say_phone",
+    "eJydjkEKgDAMBL/SB/iCfkUkFFm1aNOSREGKf7egd8HbDgzD9vXqXC2Cg8JoMbN39RnEIcG7F7aoBm7urpDmRG5o3s0C2PXR2M0gFHSlsmTGz4rGVDbQlCX9LLyg4fw4MtwWrGpI": "action_listen"
+  }
+}

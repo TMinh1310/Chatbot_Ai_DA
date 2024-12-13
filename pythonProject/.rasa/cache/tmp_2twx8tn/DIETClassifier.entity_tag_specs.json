@@ -1,0 +1,20 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-subtopic",
+      "2": "I-subtopic",
+      "3": "L-subtopic",
+      "4": "U-subtopic",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-subtopic": 1,
+      "I-subtopic": 2,
+      "L-subtopic": 3,
+      "U-subtopic": 4,
+      "O": 0
+    },
+    "num_tags": 5
+  }
+]

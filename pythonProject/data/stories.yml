@@ -1,0 +1,177 @@
+version: "3.1"
+
+stories:
+  # MOS Fundamentals subtopics
+  - story: MOS Fundamentals - Structure and Symbols
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "Structure and Symbols"
+      - action: action_fetch_information
+
+  - story: MOS Fundamentals - Threshold Voltage
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "Threshold Voltage (Vth)"
+      - action: action_fetch_information
+
+  # MOS Characteristics subtopics
+  - story: MOS Characteristics - I-V Characteristics
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "I-V Characteristics"
+      - action: action_fetch_information
+
+  # MOS Operation Modes subtopics
+  - story: MOS Operation Modes - Cutoff Mode
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "Cutoff Mode"
+      - action: action_fetch_information
+
+  - story: MOS Operation Modes - Triode Mode
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "Triode Mode"
+      - action: action_fetch_information
+
+  - story: MOS Operation Modes - Saturation Mode
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "Saturation Mode"
+      - action: action_fetch_information
+
+  # MOSFET as Amplifier subtopics
+  - story: MOSFET as Amplifier - MOSFET as Common Source Amplifier
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "MOSFET as Common Source Amplifier"
+      - action: action_fetch_information
+
+  - story: MOSFET as Amplifier - MOSFET as Source Follower
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "MOSFET as Source Follower"
+      - action: action_fetch_information
+
+  # Small-Signal Model subtopics
+  - story: Small-Signal Model - Small-Signal Parameters
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "Small-Signal Parameters"
+      - action: action_fetch_information
+
+  - story: Small-Signal Model - Small-Signal Equivalent Circuit
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "Small-Signal Equivalent Circuit"
+      - action: action_fetch_information
+
+  # Add more subtopics as needed
+  - story: User asks for information on MOSFET
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "MOSFET"
+      - action: action_fetch_information
+
+  - story: User asks for detailed analysis of Triode Mode
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "Triode Mode"
+      - action: action_fetch_information
+
+  - story: User asks about operational amplifiers
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "Operational Amplifiers"
+      - action: action_fetch_information
+
+  - story: User asks about MOSFET I-V Characteristics
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "I-V Characteristics"
+      - action: action_fetch_information
+
+  - story: User asks for information on Small-Signal Parameters
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "Small-Signal Parameters"
+      - action: action_fetch_information
+
+  - story: User asks for information on MOSFET as Source Follower
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "MOSFET as Source Follower"
+      - action: action_fetch_information
+
+  - story: User asks about MOSFET as Common Source Amplifier
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "MOSFET as Common Source Amplifier"
+      - action: action_fetch_information
+
+  - story: User asks about Threshold Voltage
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "Threshold Voltage"
+      - action: action_fetch_information
+
+  - story: User asks about Saturation Mode
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "Saturation Mode"
+      - action: action_fetch_information
+
+  - story: User asks about Cutoff Mode
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "Cutoff Mode"
+      - action: action_fetch_information
+
+  # More stories based on your subtopics
+  - story: User asks about MOS Characteristics
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "MOS Characteristics"
+      - action: action_fetch_information
+
+  - story: User inquires about Feedback in amplifiers
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "Feedback"
+      - action: action_fetch_information
+
+  - story: User asks about Thermal Runaway in transistors
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "Thermal Runaway"
+      - action: action_fetch_information
+
+  - story: User asks for a detailed explanation of differential amplifiers
+    steps:
+      - intent: ask_information
+        entities:
+          - subtopic: "Differential Amplifier"
+      - action: action_fetch_information
