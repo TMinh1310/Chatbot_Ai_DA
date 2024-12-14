@@ -14,7 +14,8 @@
 
 ## Cấu trúc hệ thống
 - cấu trúc : Chatbot xây dựng dựa trên framework Rasa
-  đây là sơ đồ cấu trúc của hệ thống: 
+  đây là sơ đồ cấu trúc của hệ thống:
+  Sơ đồ tổng quát.png
 
 ## Hướng dẫn cài đặt
 Cách cài đặt và sử dụng Chatbot_Ai : 
