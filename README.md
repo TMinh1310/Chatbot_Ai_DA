@@ -10,8 +10,8 @@
 
 - **Đề tài**: Thiết kế chatbot AI với chức năng trả lời câu hỏi của người dùng về kiến thức thiết kế IC tương tự .
 - **Database**: **"Thiết kế IC tương tự”** của cô Phạm Nguyễn Thanh Loan.
-- **Thời gian phản hồi của chatbot**: Nhanh, từ **1 tới 2 giây**.
-- **Mức độ chính xác của nội dung phản hồi**: Cao, **dữ liệu khớp 100% với Database**.
+- **Thời gian phản hồi của chatbot**: Nhanh, từ **trong vài giây**.
+- **Mức độ chính xác của nội dung phản hồi**: Cao, **dữ liệu khớp với Database**.
 
 ## Cấu trúc hệ thống
 
