@@ -19,7 +19,7 @@
 
   Dưới đây là sơ đồ cấu trúc tổng quát của hệ thống:
 
-  ![Sơ đồ cấu trúc hệ thống](./images/system_diagram.png)
+  ![Sơ đồ cấu trúc hệ thống](./images/Sơ đồ tổng quát.png)
 
 ## Hướng dẫn cài đặt
 
