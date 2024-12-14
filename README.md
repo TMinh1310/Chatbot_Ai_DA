@@ -19,7 +19,7 @@
 
   Dưới đây là sơ đồ cấu trúc tổng quát của hệ thống:
 
-  ![Sơ đồ cấu trúc hệ thống](./images/Sơ đồ tổng quát.png)
+  ![Sơ đồ cấu trúc hệ thống](./Sơ đồ tổng quát.png)
 
 ## Hướng dẫn cài đặt
 
@@ -34,7 +34,7 @@
 4. **Cập nhật tên database, username và password để kết nối với file sql trong phần "tracker store".
 
 5. **Mở 3 terminal khác nhau, nhập 3 lệnh sau:.
-Tại terminal 1: rasa run -m models --enable-api --cors "*" --debug. ( bật api của rasa ) 
+Tại terminal 1: rasa run -m models --enable-api --cors "*" --debug. ( bật Api của rasa ) 
 Tại terminal 2: rasa run actions. ( khởi chạy file actions )
 Tại terminal 3: python run main.py. ( chạy gia diện web ) 
 mở url của local web lên và sử dụng.
