@@ -1,11 +1,22 @@
-Mô tả về project :
+
+# Project Chat_bot_AI
+
+
+
+
+## Mô tả về project
+
 - đề tài : thiết kế chatbot ai với chức năng trả lời câu hỏi của người dùng về những kiến thức thiết kế IC tương tự ( dựa trên cuốn sách " Thiết kế IC tương tự " của cô Phạm Nguyễn Thanh Loan
+- Database: "Design of Analog CMOS Intergrated Circuits” của Behzad Razavi. ​
+- Thời gian phản hồi của chatbot: Nhanh, từ 1 tới 2 giây.​
+- Mức độ chính xác của nội dung phản hồi: Cao, dữ liệu khớp 100% với Database.
+
+
+## Cấu trúc hệ thống
 - cấu trúc : Chatbot xây dựng dựa trên framework Rasa
   đây là sơ đồ cấu trúc của hệ thống: 
- 
 
-
-
+## Hướng dẫn cài đặt
 Cách cài đặt và sử dụng Chatbot_Ai : 
 
 B1: Download tải tất cả các thư mục về máy tính.
