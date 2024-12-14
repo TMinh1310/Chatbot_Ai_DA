@@ -1,3 +1,11 @@
+Mô tả về project :
+- đề tài : thiết kế chatbot ai với chức năng trả lời câu hỏi của người dùng về những kiến thức thiết kế IC tương tự ( dựa trên cuốn sách " Thiết kế IC tương tự " của cô Phạm Nguyễn Thanh Loan
+- cấu trúc : Chatbot xây dựng dựa trên framework Rasa
+  đây là sơ đồ cấu trúc của hệ thống: 
+ 
+
+
+
 Cách cài đặt và sử dụng Chatbot_Ai : 
 
 B1: Download tải tất cả các thư mục về máy tính.
